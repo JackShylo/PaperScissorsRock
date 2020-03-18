@@ -1,0 +1,9 @@
+C:\Users\User\Dropbox\Software Dev 2020\repos\PaperScissorsRock\bin\Debug\PaperScissorsRock.exe.config
+C:\Users\User\Dropbox\Software Dev 2020\repos\PaperScissorsRock\bin\Debug\PaperScissorsRock.exe
+C:\Users\User\Dropbox\Software Dev 2020\repos\PaperScissorsRock\bin\Debug\PaperScissorsRock.pdb
+C:\Users\User\Dropbox\Software Dev 2020\repos\PaperScissorsRock\obj\Debug\PaperScissorsRock.csprojAssemblyReference.cache
+C:\Users\User\Dropbox\Software Dev 2020\repos\PaperScissorsRock\obj\Debug\PaperScissorsRock.Form1.resources
+C:\Users\User\Dropbox\Software Dev 2020\repos\PaperScissorsRock\obj\Debug\PaperScissorsRock.Properties.Resources.resources
+C:\Users\User\Dropbox\Software Dev 2020\repos\PaperScissorsRock\obj\Debug\PaperScissorsRock.csproj.GenerateResource.cache
+C:\Users\User\Dropbox\Software Dev 2020\repos\PaperScissorsRock\obj\Debug\PaperScissorsRock.exe
+C:\Users\User\Dropbox\Software Dev 2020\repos\PaperScissorsRock\obj\Debug\PaperScissorsRock.pdb
