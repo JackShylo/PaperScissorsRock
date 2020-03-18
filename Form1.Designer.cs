@@ -41,10 +41,14 @@
             this.RbRockComputer = new System.Windows.Forms.RadioButton();
             this.RbScissorsComputer = new System.Windows.Forms.RadioButton();
             this.RbPaperComputer = new System.Windows.Forms.RadioButton();
+            this.PbxHumanChoice = new System.Windows.Forms.PictureBox();
+            this.PbxComputerChoice = new System.Windows.Forms.PictureBox();
             this.GbxHumanChoice.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PbxHuman)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbxComputer)).BeginInit();
             this.GbxComputerChoice.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PbxHumanChoice)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PbxComputerChoice)).BeginInit();
             this.SuspendLayout();
             // 
             // GbxHumanChoice
@@ -107,9 +111,9 @@
             // 
             // LblOutcome
             // 
-            this.LblOutcome.Location = new System.Drawing.Point(146, 12);
+            this.LblOutcome.Location = new System.Drawing.Point(217, 12);
             this.LblOutcome.Name = "LblOutcome";
-            this.LblOutcome.Size = new System.Drawing.Size(152, 128);
+            this.LblOutcome.Size = new System.Drawing.Size(191, 128);
             this.LblOutcome.TabIndex = 2;
             // 
             // PbxHuman
@@ -124,7 +128,7 @@
             // PbxComputer
             // 
             this.PbxComputer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PbxComputer.BackgroundImage")));
-            this.PbxComputer.Location = new System.Drawing.Point(304, 12);
+            this.PbxComputer.Location = new System.Drawing.Point(484, 12);
             this.PbxComputer.Name = "PbxComputer";
             this.PbxComputer.Size = new System.Drawing.Size(128, 128);
             this.PbxComputer.TabIndex = 4;
@@ -136,7 +140,7 @@
             this.GbxComputerChoice.Controls.Add(this.RbRockComputer);
             this.GbxComputerChoice.Controls.Add(this.RbScissorsComputer);
             this.GbxComputerChoice.Controls.Add(this.RbPaperComputer);
-            this.GbxComputerChoice.Location = new System.Drawing.Point(304, 157);
+            this.GbxComputerChoice.Location = new System.Drawing.Point(484, 157);
             this.GbxComputerChoice.Name = "GbxComputerChoice";
             this.GbxComputerChoice.Size = new System.Drawing.Size(128, 91);
             this.GbxComputerChoice.TabIndex = 5;
@@ -176,11 +180,29 @@
             this.RbPaperComputer.Text = "Paper";
             this.RbPaperComputer.UseVisualStyleBackColor = true;
             // 
+            // PbxHumanChoice
+            // 
+            this.PbxHumanChoice.Location = new System.Drawing.Point(147, 13);
+            this.PbxHumanChoice.Name = "PbxHumanChoice";
+            this.PbxHumanChoice.Size = new System.Drawing.Size(64, 64);
+            this.PbxHumanChoice.TabIndex = 6;
+            this.PbxHumanChoice.TabStop = false;
+            // 
+            // PbxComputerChoice
+            // 
+            this.PbxComputerChoice.Location = new System.Drawing.Point(414, 12);
+            this.PbxComputerChoice.Name = "PbxComputerChoice";
+            this.PbxComputerChoice.Size = new System.Drawing.Size(64, 64);
+            this.PbxComputerChoice.TabIndex = 7;
+            this.PbxComputerChoice.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(444, 281);
+            this.ClientSize = new System.Drawing.Size(624, 281);
+            this.Controls.Add(this.PbxComputerChoice);
+            this.Controls.Add(this.PbxHumanChoice);
             this.Controls.Add(this.GbxComputerChoice);
             this.Controls.Add(this.PbxComputer);
             this.Controls.Add(this.PbxHuman);
@@ -196,6 +218,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.PbxComputer)).EndInit();
             this.GbxComputerChoice.ResumeLayout(false);
             this.GbxComputerChoice.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PbxHumanChoice)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PbxComputerChoice)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -214,6 +238,8 @@
         private System.Windows.Forms.RadioButton RbRockComputer;
         private System.Windows.Forms.RadioButton RbScissorsComputer;
         private System.Windows.Forms.RadioButton RbPaperComputer;
+        private System.Windows.Forms.PictureBox PbxHumanChoice;
+        private System.Windows.Forms.PictureBox PbxComputerChoice;
     }
 }
 

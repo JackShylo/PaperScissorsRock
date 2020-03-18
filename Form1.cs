@@ -41,14 +41,17 @@ namespace PaperScissorsRock
                 {
                     case "Paper":
                         myGamePlay.HumanChoiceText = "Paper";
+                        PbxHumanChoice.Image = Properties.Resources.Paper;
                         break;
 
                     case "Scissors":
                         myGamePlay.HumanChoiceText = "Scissors";
+                        PbxHumanChoice.Image = Properties.Resources.Scissors;
                         break;
 
                     case "Rock":
                         myGamePlay.HumanChoiceText = "Rock";
+                        PbxHumanChoice.Image = Properties.Resources.Rock;
                         break;
                 }
             }
@@ -63,12 +66,15 @@ namespace PaperScissorsRock
             {
                 case "Paper":
                     RbPaperComputer.Checked = true;
+                    PbxComputerChoice.Image = Properties.Resources.Paper;
                     break;
                 case "Scissors":
                     RbScissorsComputer.Checked = true;
+                    PbxComputerChoice.Image = Properties.Resources.Scissors;
                     break;
                 case "Rock":
                     RbRockComputer.Checked = true;
+                    PbxComputerChoice.Image = Properties.Resources.Rock;
                     break;
             }
 
